@@ -7,21 +7,21 @@ abstract class PaymentMethod {
 class CreditCard extends PaymentMethod {
     @Override
     void pay(double amount) {
-        System.out.println("Paid ₹" + amount + " using Credit Card");
+        System.out.println("Paid Rs" + amount + " using Credit Card");
     }
 }
 
 class UPI extends PaymentMethod {
     @Override
     void pay(double amount) {
-        System.out.println("Paid ₹" + amount + " using UPI");
+        System.out.println("Paid Rs" + amount + " using UPI");
     }
 }
 
 class Cash extends PaymentMethod {
     @Override
     void pay(double amount) {
-        System.out.println("Paid ₹" + amount + " in Cash");
+        System.out.println("Paid Rs" + amount + " in Cash");
     }
 }
 
