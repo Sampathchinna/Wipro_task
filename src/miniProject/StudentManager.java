@@ -8,13 +8,10 @@ public class StudentManager extends AdminUser {
 	
 	private List<Students> studentList;
 	
-	
-
-	
 	 public StudentManager(){
 		 studentList=new ArrayList<>();
 	 }
-	 //
+	 //Add student
 	 public void addStudent(Students student) {
 		 studentList.add(student);
 		 System.out.println("Student added successfully");
@@ -31,6 +28,7 @@ public class StudentManager extends AdminUser {
 	            System.out.println("---------------------------");
 	        }
 	    }
+	    //method to filter students by marks
 	    public void filterByGrade(int minMarks) {
 	    	System.out.println("Students with grade >= " + minMarks + ":");
 
@@ -47,7 +45,8 @@ public class StudentManager extends AdminUser {
 	    		        s.printDetails();                 // Print student details
 	    		        System.out.println("---------------------"); // Line break between students
 	    		    }
-             }
+        }
+	    
 	    public void addStudentFromInput() {
 	        Scanner sc = new Scanner(System.in);
 	        String choice;
@@ -78,7 +77,5 @@ public class StudentManager extends AdminUser {
 	        } while (choice.equalsIgnoreCase("yes"));
 
 	        System.out.println("Student entry completed!");
-	    }
-
-	    
+	    }  
 }

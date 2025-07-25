@@ -8,7 +8,7 @@ public class StudentApp {
 
         //Perform login
         if (!admin.login()) {
-            System.out.println("🚫 Access denied. Exiting...");
+            System.out.println("Access denied. Exiting...");
             return;
         }
 
