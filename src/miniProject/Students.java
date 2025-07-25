@@ -3,12 +3,12 @@ package miniProject;
 public class Students extends Person implements Printable  {
 	
 	private String Student_id;
-	private double grade;
+	private double Marks;
 	
-	public Students(String name,int age,String Student_id,double grade) {
+	public Students(String name,int age,String Student_id,int Marks) {
 		super(name,age);
 		this.Student_id=Student_id;
-		this.grade=grade;
+		this.Marks=Marks;
 	}
 
 	public String getStudent_id() {
@@ -20,11 +20,11 @@ public class Students extends Person implements Printable  {
 	}
 
 	public double getGrade() {
-		return grade;
+		return Marks;
 	}
 
-	public void setGrade(double grade) {
-		this.grade = grade;
+	public void setGrade(char grade) {
+		this.Marks = grade;
 	}
 	
 	@Override
@@ -32,7 +32,7 @@ public class Students extends Person implements Printable  {
 		System.out.println("Student Name :"+getName());
 		System.out.println("Age          :"+getAge());
 		System.out.println("Student ID   :"+Student_id);
-		System.out.println("Grade        :"+grade);
+		System.out.println("Grade        :"+Marks);
 		
 		
 	}

@@ -1,6 +1,6 @@
 package javaOopsTasks;
 
-public class Task3_Encapsulation {
+public class Task3_Encapsulation_bankaccount {
 	
 	public static void main(String[] args) {
 		BankAccount account=new BankAccount(12345,500.0);
