@@ -48,7 +48,7 @@ public class LibraryApp {
                     if (toBorrow != null) {
                         user.borrow(toBorrow);
                     } else {
-                        System.out.println("❌ Book ID not found!");
+                        System.out.println("Book ID not found!");
                     }
                     break;
 

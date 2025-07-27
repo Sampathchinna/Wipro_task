@@ -12,7 +12,7 @@ public class LibraryUser {
     }
 
     public void borrow(FictionBook book) {
-        System.out.println("\n👤 User: " + name);
+        System.out.println("\nUser: " + name);
         book.borrowBook();
         book.returnPolicy();
     }
