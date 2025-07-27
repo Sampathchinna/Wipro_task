@@ -1,4 +1,4 @@
-package miniProject;
+package javaOops.miniProject;
 
 public class Person {
 	

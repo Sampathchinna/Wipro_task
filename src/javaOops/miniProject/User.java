@@ -1,4 +1,4 @@
-package miniProject;
+package javaOops.miniProject;
 
 public abstract class User {
 	protected String username;
