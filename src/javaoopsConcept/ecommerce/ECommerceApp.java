@@ -93,7 +93,7 @@ public class ECommerceApp {
         if (discountPercent >= 0 && discountPercent <= 25) {
             discount = (total) -> total * (1 - discountPercent / 100);
         } else {
-            System.out.println("⚠️ Discount not applicable. Must be between 0 and 25%.");
+            System.out.println("Discount not applicable. Must be between 0 and 25%.");
         }
 
         // Payment input

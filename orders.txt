@@ -1,20 +1,5 @@
-Customer: sampath, Email: samchinna@gmail
+Customer: sampath, Email: sam@jd
 Products:
- - fdfs | Rs2040.0
-Total Amount: ₹1836.0
-------------------------------
-Customer: sampath, Email: samchinna@gmail
-Products:
- - fdfs | Rs2040.0
-Total Amount: ₹1836.0
-------------------------------
-Customer: ashok, Email: sam@123
-Products:
- - python basics | Rs2300.0
-Total Amount: ₹2070.0
-------------------------------
-Customer: sampath, Email: sam@gmail.com
-Products:
- - python basics | Rs2300.0
-Total Amount: ₹2070.0
+ - cad | Rs2300.0
+Total Amount: ₹2116.0
 ------------------------------
