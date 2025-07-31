@@ -1,4 +1,4 @@
-package Wrapperclass;
+package wrapperclass;
 
 public class task3_Parsing {
 	static String intstr="123";

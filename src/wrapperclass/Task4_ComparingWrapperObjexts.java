@@ -1,4 +1,4 @@
-package Wrapperclass;
+package wrapperclass;
 
 public class Task4_ComparingWrapperObjexts {
 	static Integer x=100;
