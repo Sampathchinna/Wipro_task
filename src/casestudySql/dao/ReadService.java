@@ -16,7 +16,7 @@ public class ReadService {
 	        PreparedStatement pstmt = conn.prepareStatement(sql);
 	        ResultSet rs = pstmt.executeQuery();
 
-	        System.out.println("\n👥 Student List:");
+	        System.out.println("Student List:");
 	        System.out.printf("%-10s %-20s %-30s %-15s\n", "ID", "Name", "Email", "DOB");
 	        System.out.println("---------------------------------------------------------------------------------");
 
